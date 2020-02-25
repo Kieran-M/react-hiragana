@@ -5,7 +5,7 @@ import DrawButton from './Draw/DrawButton';
 import firebase from 'firebase/app';
 import 'firebase/database';
 
-import { DB_CONFIG } from './config/firebase/db_config';
+import { DB_CONFIG } from './.config/firebase/db_config';
 
 class App extends Component {
   constructor(props){
